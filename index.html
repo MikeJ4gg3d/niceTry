@@ -5,5 +5,11 @@
       <source src="https://droidsec.tk/static/images/enjoy.mp4" type="video/mp4">
       <source src="https://droidsec.tk/static/images/enjoy.ogg" type="video/ogg">
     </video>
+    <audio src="https://www.bensound.com/bensound-music/bensound-moose.mp3"></audio>
+    window.addEventListener("DOMContentLoaded", event => {
+  const audio = document.querySelector("audio");
+  audio.volume = 0.2;
+  audio.play();
+});
   </body>
 </html>
